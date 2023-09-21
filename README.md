@@ -1,9 +1,9 @@
 # PROJECT 4
 
-- **Project Name:** Hada - to do list templates for bootcamp students
+- **Project Name:** Bootcamp Buddy - to do list templates for bootcamp students
 - **Project By:** Christine Wong
 - [**LINK TO GITHUB**](https://github.com/cwon07/project4)
-- [**LINK TO DEPLOYED WEBSITE**](https://ga-project-4.onrender.com)
+- [**LINK TO DEPLOYED WEBSITE**](https://ga-project-4-frontend.onrender.com)
 - **List of Technologies used:** Django, React
 - [**LINK TO TRELLO**](https://trello.com/b/oOg79Pqy/project-4)
 
@@ -12,9 +12,7 @@
 This is my take on the popular Notion app for bootcamp students. The app features templates such as interview prep, interview tracker, notes, and journal. 
 
 ## Mock UP of UI
- ![Desktop View](https://imgur.com/a/F90pTn4g) 
-
-
+ ![Desktop View](https://imgur.com/a/F90pTn4) 
 
 
 ## List of Backend Endpoints
@@ -22,7 +20,7 @@ This is my take on the popular Notion app for bootcamp students. The app feature
 |----------|--------|---------|
 | / | GET | landing page |
 | /home | GET | personal home page |
-| /journal | POST | add new recipe, redirect to /recipes
+| /journal | POST | add new journal, redirect to /journal
 | /journal/new | GET | add one recipe |
 | /journal/:id | GET | list one recipe |
 | /journal/:id | PUT | form to edit recipe | 
@@ -38,5 +36,3 @@ This is my take on the popular Notion app for bootcamp students. The app feature
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
 ![PICTURE OF ERD](/public/images/ERDv1.png)
-
-- [Free ERD Diagram Tool](https://dbdiagram.io/home)
